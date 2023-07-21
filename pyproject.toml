@@ -25,12 +25,12 @@ urls = { github = "https://github.com/vanandrew/brainextractor" }
 version = "0.2.2"
 dynamic = ["entry-points"]
 dependencies = [
-    "numba >= 0.51.2",
-    "nibabel >= 3.2.1",
-    "trimesh >= 3.8.15",
-    "numpy >= 1.19.4",
-    "scipy >= 1.5.4",
-    "pyrender >= 0.1.43",
+    "numba == 0.51.2",
+    "nibabel == 3.2.1",
+    "trimesh == 3.8.15",
+    "numpy == 1.19.4",
+    "scipy == 1.5.4",
+    "pyrender == 0.1.43",
 ]
 
 [project.optional-dependencies]
